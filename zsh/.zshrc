@@ -18,6 +18,7 @@ antigen use oh-my-zsh
 
 # Set bundles
 antigen bundle brew
+antigen bundle copyfile
 antigen bundle docker
 antigen bundle docker-compose
 antigen bundle git
