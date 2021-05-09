@@ -11,6 +11,8 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/go/bin:$GOPATH/bin:$PATH
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
+source <(stern --completion=zsh)
+
 source /usr/local/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.

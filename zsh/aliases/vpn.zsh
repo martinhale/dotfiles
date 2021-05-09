@@ -1,4 +1,4 @@
-alias vpn_office="sudo openvpn /Users/martin/secrets/OpenVPN-client-martin-office.ovpn"
-alias vpn_dev="sudo openvpn /Users/martin/secrets/OpenVPN-client-martin-dev.ovpn"
-alias vpn_staging="sudo openvpn /Users/martin/secrets/OpenVPN-client-martin-staging.ovpn"
-alias vpn_prod="sudo openvpn /Users/martin/secrets/OpenVPN-client-martin-prod.ovpn"
+alias vpn_office="/Users/martin/Developer/Vivacity/atrocity/office-openvpn/connect.sh"
+alias vpn_dev="/Users/martin/Developer/Vivacity/atrocity/vivacity-infrastructure/k8s-dev/openvpn/connect.sh"
+alias vpn_staging="/Users/martin/Developer/Vivacity/atrocity/vivacity-infrastructure/k8s-staging/openvpn/connect.sh"
+alias vpn_prod="/Users/martin/Developer/Vivacity/atrocity/vivacity-infrastructure/k8s/openvpn/connect.sh"
